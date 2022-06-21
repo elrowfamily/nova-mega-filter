@@ -173,7 +173,7 @@ class MegaFilter extends Card
      *
      * @return array
      */
-    public function jsonSerialize()
+    public function jsonSerialize(): array
     {
         return array_merge([
             'settings' => $this->settings(),
